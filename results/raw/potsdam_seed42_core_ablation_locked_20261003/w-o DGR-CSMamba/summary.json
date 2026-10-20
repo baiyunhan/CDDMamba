@@ -1,0 +1,31 @@
+{
+  "mIoU": 0.8157496461015217,
+  "F1": 0.8971292522920882,
+  "OA": 0.8838070674603175,
+  "class_IoU": {
+    "ImSurf": 0.8326295787633243,
+    "Building": 0.9102552815976463,
+    "LowVeg": 0.7322605324374597,
+    "Tree": 0.7552313959553087,
+    "Car": 0.8483714417538698,
+    "Clutter": 0.3682728842530612
+  },
+  "class_F1": {
+    "ImSurf": 0.9086719852303056,
+    "Building": 0.9530195156286675,
+    "LowVeg": 0.8454392612722033,
+    "Tree": 0.8605490964845279,
+    "Car": 0.9179664028447366,
+    "Clutter": 0.5383032704826289
+  },
+  "model": "w-o DGR-CSMamba",
+  "config": "config/potsdam/proposed_ablate_no_dgr_potsdam_formal100.py",
+  "checkpoint": "model_weights/potsdam/proposed_ablate_no_dgr_potsdam_formal100/proposed_ablate_no_dgr_potsdam_formal100.ckpt",
+  "checkpoint_sha256": "30f13e0dd07000c10dd3bedd790156ea2597940427cb99055c1eedbd1ad8ae86",
+  "split_counts": {
+    "train": 756,
+    "val": 108,
+    "test": 504
+  },
+  "test_images": 504
+}

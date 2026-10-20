@@ -1,0 +1,31 @@
+{
+  "mIoU": 0.6922697621854113,
+  "F1": 0.8126523456636733,
+  "OA": 0.8467068621292013,
+  "class_IoU": {
+    "ImSurf": 0.7669395418921616,
+    "Building": 0.8206659520757597,
+    "LowVeg": 0.6236666393077004,
+    "Tree": 0.7431758772429146,
+    "Car": 0.5069008004085199,
+    "Clutter": 0.15661179229153435
+  },
+  "class_F1": {
+    "ImSurf": 0.8680993590430032,
+    "Building": 0.9015008504334473,
+    "LowVeg": 0.7682200572570976,
+    "Tree": 0.8526688407578873,
+    "Car": 0.6727726208269309,
+    "Clutter": 0.27081133589559486
+  },
+  "model": "SRCBTFusion-Net",
+  "config": "config/vaihingen/srcbtfusion_strict_formal100.py",
+  "checkpoint": "model_weights/vaihingen/srcbtfusion_strict_formal100/srcbtfusion_strict_formal100.ckpt",
+  "checkpoint_sha256": "7e69b03b15db60e874c4a96a0e7592fb99b7c24c114a5450053505a99053ec2f",
+  "split_counts": {
+    "train": 605,
+    "val": 150,
+    "test": 113
+  },
+  "test_images": 113
+}

@@ -1,0 +1,3 @@
+from config.vaihingen.proposed_method_v3_detail_formal100 import *
+from config.potsdam.strict_formal_common import apply_potsdam_protocol
+apply_potsdam_protocol(globals(), "proposed_method_v3_detail_potsdam_formal100")

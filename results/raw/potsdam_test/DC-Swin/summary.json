@@ -1,0 +1,31 @@
+{
+  "mIoU": 0.7874932403622561,
+  "F1": 0.8793535970340969,
+  "OA": 0.8705293452380952,
+  "class_IoU": {
+    "ImSurf": 0.8002382950232589,
+    "Building": 0.9101806077265413,
+    "LowVeg": 0.6988376978396984,
+    "Tree": 0.7370842394294361,
+    "Car": 0.791125361792346,
+    "Clutter": 0.35327368657796715
+  },
+  "class_F1": {
+    "ImSurf": 0.8890359651114076,
+    "Building": 0.9529785864697056,
+    "LowVeg": 0.8227245000842223,
+    "Tree": 0.8486453595037386,
+    "Car": 0.8833835740014105,
+    "Clutter": 0.5221023508870446
+  },
+  "model": "DC-Swin",
+  "config": "config/potsdam/dcswin_potsdam_strict_formal100.py",
+  "checkpoint": "model_weights/potsdam/dcswin_potsdam_strict_formal100/dcswin_potsdam_strict_formal100.ckpt",
+  "checkpoint_sha256": "751ffd5f013c4a081557df090cfe2008f13a1686e91a6498a56c9afb06da9514",
+  "split_counts": {
+    "train": 756,
+    "val": 108,
+    "test": 504
+  },
+  "test_images": 504
+}

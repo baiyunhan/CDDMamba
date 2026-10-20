@@ -1,0 +1,5 @@
+Variant,OA,mF1,mIoU
+Random grouping + differentiated perturbation,86.3941,87.9047,78.8062
+Clarity grouping + uniform perturbation,86.3923,88.0400,79.0024
+Clarity grouping + differentiated perturbation (ours),86.6200,88.1600,79.2149
+

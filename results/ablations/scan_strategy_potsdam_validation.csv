@@ -1,0 +1,5 @@
+Scan strategy,OA,mF1,mIoU
+Raster scan,86.5211,88.0438,79.0606
+Hilbert scan,86.4363,88.0194,78.9896
+Difference-guided Hilbert scan (ours),86.6200,88.1600,79.2149
+

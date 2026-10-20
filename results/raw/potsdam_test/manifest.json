@@ -1,0 +1,18 @@
+{
+  "dataset": "Potsdam",
+  "protocol": "locked_100_epoch_seed42_best_validation_checkpoint",
+  "metric_average": "five foreground classes; Clutter excluded from macro F1 and mIoU",
+  "models": [
+    "V3-Detail",
+    "ABCNet",
+    "DC-Swin",
+    "UNetFormer",
+    "UMFormer",
+    "BANet",
+    "CMTFNet",
+    "RS3Mamba",
+    "UNetMamba",
+    "SRCBTFusion-Net"
+  ],
+  "full_predictions_saved": false
+}

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or its accompanying results, please cite this software and the associated paper."
+title: "CDDMamba: Reproducibility Package for Remote-Sensing Semantic Segmentation"
+type: software
+authors:
+  - family-names: "Bai"
+    given-names: "Yunhan"
+version: 1.0.0
+date-released: 2026-10-20
+repository-code: "https://github.com/baiyunhan/CDDMamba"
+

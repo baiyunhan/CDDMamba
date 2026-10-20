@@ -1,0 +1,31 @@
+{
+  "mIoU": 0.7257228832429253,
+  "F1": 0.8384904845512539,
+  "OA": 0.8561545382478383,
+  "class_IoU": {
+    "ImSurf": 0.7748464594551467,
+    "Building": 0.8417185824897305,
+    "LowVeg": 0.6618036323607507,
+    "Tree": 0.7378320777722758,
+    "Car": 0.6124136641367227,
+    "Clutter": 0.13394678228491547
+  },
+  "class_F1": {
+    "ImSurf": 0.8731419614663612,
+    "Building": 0.9140577615846736,
+    "LowVeg": 0.7964883689904991,
+    "Tree": 0.8491408200015522,
+    "Car": 0.7596235107131836,
+    "Clutter": 0.2362487982284516
+  },
+  "model": "CMTFNet",
+  "config": "config/vaihingen/cmtfnet_strict_formal100.py",
+  "checkpoint": "model_weights/vaihingen/cmtfnet_strict_formal100/cmtfnet_strict_formal100.ckpt",
+  "checkpoint_sha256": "a3959c6dda69453aaf890ebfff0013a0392820ab37e29d20008198cef0ce3f6a",
+  "split_counts": {
+    "train": 605,
+    "val": 150,
+    "test": 113
+  },
+  "test_images": 113
+}

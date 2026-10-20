@@ -1,0 +1,17 @@
+{
+  "dataset": "Potsdam",
+  "protocol": "100 epochs, seed 42, best validation mIoU checkpoint, one-shot locked Test",
+  "split_counts": {
+    "train": 756,
+    "val": 108,
+    "test": 504
+  },
+  "metric_average": "five foreground classes; Clutter excluded from macro F1 and mIoU",
+  "models": [
+    "w-o CDFM",
+    "w-o DP-MPC",
+    "w-o DGR-CSMamba",
+    "Full model"
+  ],
+  "full_predictions_saved": false
+}

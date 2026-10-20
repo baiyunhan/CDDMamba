@@ -1,0 +1,5 @@
+Variant,OA,mF1,mIoU
+Without CDFM,86.05,87.75,78.62
+Without DP-MPC,86.56,88.00,78.96
+Without DGR-CSMamba,86.45,87.98,78.93
+Full model,86.62,88.16,79.21
